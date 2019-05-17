@@ -1,0 +1,145 @@
+* {
+  font-style: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #159163;
+  font-family: Lato;
+  font-size: 20px;
+  color: #351850;
+}
+
+header {
+  background-image: url(images/moby-header.png);
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: auto;
+  height: 300;
+  border: 10px solid rgba(0, 40, 128, 0.7);
+  border-radius: 3px;
+}
+
+header img {
+  width: auto;
+  height: 300px;
+  bottom: 0;
+  border: none;
+}
+
+h1, h2, h3 {
+  margin: 20px;
+  font-family: "Maiden Orange";
+  text-transform: capitalize;
+  text-align: center;
+  color: inherit;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+img {
+  margin: auto;
+  width: auto;
+  border: 5px solid rgba(0, 40, 128, 0.7);
+  border-radius: 2px;
+}
+
+div p {
+  margin: inherit;
+  width: 820px;
+}
+
+section {
+  padding: 30px 0;
+}
+
+ul {
+  margin: 5px 0;
+  font-family: "Maiden Orange";
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #d44649;
+}
+
+a:hover {
+  color: #91b4b4;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #59144d;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.header-footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+a.navlink {
+  color: #c6d28c;
+}
+
+a.active {
+  background-color: #c8c8c8;
+}
+
+.container {
+  display: flex;
+  width: auto;
+  justify-content: space-around;
+}
+
+.contactlinks div {
+  margin: 10px 10px;
+}
+
+.contactlinks img {
+  border: 5px solid rgba(0, 40, 128, 0.7);
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.contactlinks a {
+  color: #351850;
+}
