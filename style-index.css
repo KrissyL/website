@@ -35,7 +35,7 @@ header img {
   border: none;
 }
 
-
+/* Heading Specs */
 h1, h2, h3 {
   margin: 20px;
   font-family: "Maiden Orange";
@@ -94,7 +94,7 @@ a {
 a:hover {
   color: #91b4b4;
 }
-
+/* Navigation Bar */
 ul {
   margin: 5px 0;
   font-family: "Maiden Orange";
@@ -132,7 +132,7 @@ a.navlink {
 a.active {
   background-color: #c8c8c8;
 }
-
+/* centering content on x-axis */
 .container {
   display: flex;
   width: auto;
